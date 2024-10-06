@@ -1,2 +1,5 @@
 _book
 .quarto
+
+/.quarto/
+.DS_Store

@@ -29,9 +29,10 @@ format:
     search: true
     reader-mode: true
   pdf:
-    documentclass: scrreprt
-    # fontfamily: libertinus
+    # pdf_engine: lualatex
+    mainfont: Arial
     papersize: a5paper
+    # number-sections: false
   epub: 
     cover-image: cover.png
 
