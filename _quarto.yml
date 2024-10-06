@@ -1,0 +1,39 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Голос травмированного поколения"
+  subtitle: 2012-2024
+  author: "Александра Булгакова"
+  date: "06-10-2024"
+  page-navigation: true
+  downloads: [pdf, epub]
+  sharing: [twitter, facebook]
+  language: "ru"
+  chapters:
+    - index.qmd
+    - 2012.qmd
+    - 2017.qmd
+    - 2020.qmd
+    - 2022.qmd
+    - 2023.qmd
+    - 2024.qmd
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    number-sections: false
+    search: true
+    reader-mode: true
+  pdf:
+    documentclass: scrreprt
+    # fontfamily: libertinus
+    papersize: a5paper
+  epub: 
+    cover-image: cover.png
+
+
+
