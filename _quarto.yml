@@ -29,11 +29,17 @@ format:
     search: true
     reader-mode: true
   pdf:
+    output-file: "voice.pdf"
+    fontfamily: libertinus
     # pdf_engine: lualatex
-    mainfont: Arial
+    # mainfont: Arial
     papersize: a5paper
     # number-sections: false
+  docx:
+    output-file: "voice.docx"
+    toc-title: "Оглавление"
   epub: 
+    output-file: "voice.pdf"
     cover-image: cover.png
 
 
