@@ -30,9 +30,9 @@ format:
     reader-mode: true
   pdf:
     output-file: "voice.pdf"
-    fontfamily: libertinus
+    # fontfamily: libertinus
     # pdf_engine: lualatex
-    # mainfont: Arial
+    mainfont: Times New Roman
     papersize: a5paper
     # number-sections: false
   docx:
